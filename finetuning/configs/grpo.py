@@ -10,9 +10,9 @@ max_pixels = 2560 * 28 * 28
 
 grounding_data = dict(
     type=TSVRLHFDataset,
-    image_tsv_file="Mountchicken/Rex-Omni-Finetune-ToyData/SFT_Grounding_data.images.tsv",
-    anno_tsv_file="Mountchicken/Rex-Omni-Finetune-ToyData/SFT_Grounding_data.annotations.tsv",
-    anno_idx_file="Mountchicken/Rex-Omni-Finetune-ToyData/SFT_Grounding_data.annotations.tsv.lineidx",
+    image_tsv_file="Mountchicken/Rex-Omni-Finetune-ToyData/toy_data.images.tsv",
+    anno_tsv_file="Mountchicken/Rex-Omni-Finetune-ToyData/toy_data.annotations.tsv",
+    anno_idx_file="Mountchicken/Rex-Omni-Finetune-ToyData/toy_data.annotations.tsv.lineidx",
     min_pixels=min_pixels,
     max_pixels=max_pixels,
     task_fn=dict(

@@ -11,9 +11,9 @@ model_name_or_path = "IDEA-Research/Rex-Omni"
 
 grounding_data = dict(
     type=GroundingTSVDataset,
-    img_tsv_file="Mountchicken/Rex-Omni-Finetune-ToyData/SFT_Grounding_data.images.tsv",
-    ann_tsv_file="Mountchicken/Rex-Omni-Finetune-ToyData/SFT_Grounding_data.annotations.tsv",
-    ann_lineidx_file="Mountchicken/Rex-Omni-Finetune-ToyData/SFT_Grounding_data.annotations.tsv.lineidx",
+    img_tsv_file="Mountchicken/Rex-Omni-Finetune-ToyData/toy_data.images.tsv",
+    ann_tsv_file="Mountchicken/Rex-Omni-Finetune-ToyData/toy_data.annotations.tsv",
+    ann_lineidx_file="Mountchicken/Rex-Omni-Finetune-ToyData/toy_data.annotations.tsv.lineidx",
     image_min_pixels=min_pixels,
     image_max_pixels=max_pixels,
     task_fn=dict(
