@@ -43,6 +43,7 @@
 
 
 # News 🎉
+- [2025-10-29] Fine-tuning code is now [available](fine-tuning/README.md).
 - [2025-10-17] Evaluation code and dataset is now [available](evaluation/README.md).
 - [2025-10-15] Rex-Omni is released.
 
@@ -50,6 +51,7 @@
 
 - [News 🎉](#news-)
 - [Table of Contents](#table-of-contents)
+  - [TODO LIST 📝](#todo-list-)
   - [1. Installation ⛳️](#1-installation-️)
   - [2. Quick Start: Using Rex-Omni for Detection](#2-quick-start-using-rex-omni-for-detection)
       - [Initialization parameters (RexOmniWrapper)](#initialization-parameters-rexomniwrapper)
@@ -60,10 +62,15 @@
     - [Quick Start](#quick-start)
     - [Available Options](#available-options)
   - [6. Evaluation](#6-evaluation)
-  - [7. LICENSE](#7-license)
-  - [TODO LIST 📝](#todo-list-)
-  - [8. Citation](#8-citation)
+  - [7. Fine-tuning Rex-Omni](#7-fine-tuning-rex-omni)
+  - [8. LICENSE](#8-license)
+  - [9. Citation](#9-citation)
 
+
+## TODO LIST 📝
+- [x] Add Evaluation Code
+- [x] Add Fine-tuning Code
+- [ ] Add Quantilized Rex-Omni
 
 ## 1. Installation ⛳️
 
@@ -217,15 +224,15 @@ CUDA_VISIBLE_DEVICES=0 python demo/gradio_demo.py \
 ## 6. Evaluation
 Please refer to [Evaluation](evaluation/README.md) for more details.
 
-## 7. LICENSE
+## 7. Fine-tuning Rex-Omni
+Please refer to [Fine-tuning Rex-Omni](fine-tuning/README.md) for more details.
+
+## 8. LICENSE
 
 Rex-Omni is licensed under the [IDEA License 1.0](LICENSE), Copyright (c) IDEA. All Rights Reserved. This model is based on Qwen, which is licensed under the [Qwen RESEARCH LICENSE AGREEMENT](https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct/blob/main/LICENSE), Copyright (c) Alibaba Cloud. All Rights Reserved.
 
-## TODO LIST 📝
-- [x] Add Evaluation Code
-- [ ] Add Fine-tuning Code
 
-## 8. Citation
+## 9. Citation
 Rex-Omni comes from a series of prior works. If you’re interested, you can take a look.
 
 - [RexThinker](https://arxiv.org/abs/2506.04034)
