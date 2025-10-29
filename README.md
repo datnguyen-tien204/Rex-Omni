@@ -43,7 +43,7 @@
 
 
 # News 🎉
-- [2025-10-29] Fine-tuning code is now [available](fine-tuning/README.md).
+- [2025-10-29] Fine-tuning code is now [available](finetuning/README.md).
 - [2025-10-17] Evaluation code and dataset is now [available](evaluation/README.md).
 - [2025-10-15] Rex-Omni is released.
 
@@ -225,7 +225,7 @@ CUDA_VISIBLE_DEVICES=0 python demo/gradio_demo.py \
 Please refer to [Evaluation](evaluation/README.md) for more details.
 
 ## 7. Fine-tuning Rex-Omni
-Please refer to [Fine-tuning Rex-Omni](fine-tuning/README.md) for more details.
+Please refer to [Fine-tuning Rex-Omni](finetuning/README.md) for more details.
 
 ## 8. LICENSE
 
