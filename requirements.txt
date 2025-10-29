@@ -11,3 +11,4 @@ gradio_image_prompter==0.1.0
 pydantic==2.10.6
 pycocotools==2.0.10
 shapely==2.1.2
+gradio_bbox_annotator==0.1.1
